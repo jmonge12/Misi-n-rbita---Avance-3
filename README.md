@@ -24,3 +24,21 @@ mision-orbita/
     ├── (documentos de los avances 1 y 2)
     └── avance3_mision_orbita.pdf
 ```
+## Instrucciones de ejecución
+Se necesita Python 3. Desde la carpeta del repositorio:
+```
+python avance3/mision_orbita.py
+```
+Todo se maneja por consola. Los datos numéricos se ingresan como enteros positivos y
+solo se validan las opciones de los menús (destino, actividad y menú principal).
+ 
+## Convenciones y estilos
+- Variables y funciones en snake_case, con nombres descriptivos y en minúscula.
+- Constantes en MAYÚSCULAS con guion bajo, declaradas al inicio del archivo; sin números
+  mágicos en las fórmulas y con constantes de posición (por ejemplo `recursos[OXIGENO]`).
+- Indentación de 4 espacios y espacios alrededor de los operadores.
+- Encabezado en el archivo (archivo, curso, integrantes, fecha, versión y descripción).
+- Un comentario antes de cada bloque lógico que explica el porqué de la decisión.
+- Sin variables globales, diccionarios, `break`, `continue`, `lambda` ni importaciones;
+  cada función que devuelve un valor tiene un único `return` al final.
+- Commits con mensajes que describen el cambio realizado.
